@@ -1,6 +1,12 @@
+.name-market {
+  text-align: center;
+}
+.titulos-carrito {
+  font-weight: bold;
+}
 .list-group-item {
-  margin: 10px;
-  border-top-width: 1px !important;
+  /* margin: 10px 0px; */
+  /* border-top-width: 1px !important; */
 }
 .text-total {
   margin-top: 10px;
