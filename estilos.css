@@ -1,4 +1,7 @@
 .list-group-item {
-  margin: 20px;
+  margin: 10px;
   border-top-width: 1px !important;
+}
+.text-total {
+  margin-top: 10px;
 }
