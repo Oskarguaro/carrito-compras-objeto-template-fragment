@@ -19,6 +19,7 @@
                         <button 
                         class="btn-sub btn btn-outline-primary"
                         data-fruta="Fresa"
+                        data-precio="200"
                         >Agregar</button>
                     </div>
                 </div>
@@ -30,6 +31,7 @@
                         <button 
                         class="btn-sub btn btn-outline-primary"
                         data-fruta="Banano"
+                        data-precio="800"
                         >Agregar</button>
                     </div>
                 </div>
@@ -41,6 +43,7 @@
                         <button 
                         class="btn-sub btn btn-outline-primary"
                         data-fruta="Sandía"
+                        data-precio="1500"
                         >Agregar</button>
                     </div>
                 </div>
@@ -67,9 +70,9 @@
         <ul class="col-12 list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center col-12">
                 <span class="col-4 titulos-carrito">Total Productos:</span>
-                <span class="col-1 text-center titulos-carrito">12</span>
+                <span class="col-1 text-center titulos-carrito" id="t-products">0</span>
                 <span class="col-3 text-end titulos-carrito">Total a Pagar:</span>
-                <span class="col-4 text-end titulos-carrito">$20500</span>
+                <span class="col-4 text-end titulos-carrito" id="t-money">$0</span>
             </li>
         </ul>
     </section>        
@@ -77,9 +80,9 @@
     <template id="template">
         <li class="list-group-item d-flex justify-content-between align-items-center col-12">
             <span class="col-4 lead">Fresa</span>
-            <span class="col-1 badge bg-primary rounded-pill text-center">12</span>
+            <span class="col-1 badge bg-primary rounded-pill text-center">0</span>
             <span class="col-3 precio-unit text-end">$200</span>
-            <span class="col-4 precio-sub text-end">$5000</span>
+            <span class="col-4 precio-sub text-end">$200</span>
         </li>
     </template>
     
@@ -88,7 +91,7 @@
             <div class="card">
                 <div class="card-body text-center">
                     <button class="btn btn-outline-primary btn-total">Totalizar</button>
-                    <h5 class="card-title text-total"></h5>
+                    <h5 class="card-title text-final"></h5>
                 </div>
             </div>
         </article>
