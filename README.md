@@ -4,6 +4,8 @@
 
 Si puedes mejorar el código, bienvenido!
 
+Muchas gracias
+
 ```html
 <template id="template">
   <li class="list-group-item d-flex justify-content-between align-items-center">
