@@ -51,21 +51,35 @@
     <section class="container d-flex justify-content-center">
         <ul class="col-12 list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center col-12">
-                <span class="titulos-carrito col-5">Producto</span>
+                <span class="titulos-carrito col-4">Producto</span>
                 <span class="titulos-carrito col-1 text-center">Cantidad</span>
-                <span class="titulos-carrito col-5 text-end">Precio Unitario</span>
+                <span class="titulos-carrito col-3 text-end">Precio Unitario</span>
+                <span class="titulos-carrito col-4 text-end">SubTotal</span>
             </li>
         </ul>
     </section>        
+
     <section class="container d-flex justify-content-center">
         <ul class="col-12 list-group" id="carrito"></ul>
     </section>
 
+    <section class="container d-flex justify-content-center">
+        <ul class="col-12 list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center col-12">
+                <span class="col-4 titulos-carrito">Total Productos:</span>
+                <span class="col-1 text-center titulos-carrito">12</span>
+                <span class="col-3 text-end titulos-carrito">Total a Pagar:</span>
+                <span class="col-4 text-end titulos-carrito">$20500</span>
+            </li>
+        </ul>
+    </section>        
+
     <template id="template">
         <li class="list-group-item d-flex justify-content-between align-items-center col-12">
-            <span class="col-5 lead">Fresa</span>
+            <span class="col-4 lead">Fresa</span>
             <span class="col-1 badge bg-primary rounded-pill text-center">12</span>
-            <span class="col-5 precio-unit text-end">$200</span>
+            <span class="col-3 precio-unit text-end">$200</span>
+            <span class="col-4 precio-sub text-end">$5000</span>
         </li>
     </template>
     
